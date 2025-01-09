@@ -964,6 +964,27 @@
       font-size: 4rem;
     }
   }
+.container-email {
+    text-align: center;
+  }
+  
+  .email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: #fefaca;
+    color:#2a2e35;
+  }
   
   /*# sourceMappingURL=styles.css.map */
   
