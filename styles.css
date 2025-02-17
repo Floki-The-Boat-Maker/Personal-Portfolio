@@ -985,6 +985,69 @@
     background-color: #fefaca;
     color:#2a2e35;
   }
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Style the form container */
+form {
+  max-width: 400px; /* Adjust width as needed */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style form fields */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style input fields and textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style the submit button */
+button {
+  background-color:#2a2e35;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #81B29A;
+  color:black;
+}
+
   
   /*# sourceMappingURL=styles.css.map */
   
